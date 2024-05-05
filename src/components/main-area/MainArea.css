@@ -1,0 +1,76 @@
+
+    .calender-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #event-disp-div:hover {
+        border: 1px solid #3B4BBC !important;
+    }
+
+    .calender:hover {
+        background: #EFF3FC;
+    }
+
+    .calender-header1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .calender-days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .day {
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .day:hover {
+        background: #9CA7F9;
+    }
+
+    #sideBar-menu {
+        color: #3B4BBC;
+        cursor: pointer;
+    }
+
+    #sideBar-menu:hover {
+        background-color: #3B4BBC !important;
+        color: whitesmoke !important;
+    }
+
+    #sideBar-menu:hover i {
+        color: white !important;
+    }
+
+    .ddbtnclass {
+        color: #3B4BBC;
+    }
+
+    .nav-link {
+        color: #3B4BBC !important;
+    }
+
+    .nav-link.active {
+        background-color: transparent !important;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1.5px solid #3B4BBC !important;
+        font-weight: bold;
+        color: #3B4BBC !important;
+    }
+
+    #card-carousel:hover {
+        border: 1px solid #3B4BBC !important;
+    }
+
+    #dropd-hov-evnt.active #card-carousel {
+        opacity: 0.2;
+    }
